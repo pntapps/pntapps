@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" font-family="'Segoe UI',Inter,-apple-system,Helvetica,Arial,sans-serif">
+<style>.arr{animation:drop 1.4s ease-in infinite}@keyframes drop{0%{transform:translateY(-14px);opacity:0}30%{opacity:1}100%{transform:translateY(14px);opacity:0}}.line{animation:zip 1.2s linear infinite}@keyframes zip{from{transform:translateX(40px);opacity:0}50%{opacity:.8}to{transform:translateX(-60px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a0b06"/><stop offset="1" stop-color="#2b1208"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#f97316" stop-opacity=".45"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.2" fill="#ffffff" opacity=".08"/></pattern>
+  <clipPath id="cc"><rect width="600" height="220" rx="18"/></clipPath>
+  <linearGradient id="seg" x1="0" x2="1"><stop offset="0" stop-color="#f97316"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+</defs>
+<g clip-path="url(#cc)">
+  <rect width="600" height="220" fill="url(#bg)"/><rect width="600" height="220" fill="url(#dots)"/>
+  <circle cx="440" cy="100" r="190" fill="url(#glow)"><animate attributeName="r" values="170;205;170" dur="7s" repeatCount="indefinite"/></circle>
+  <rect x="300" y="36" width="260" height="12" rx="6" fill="#ffffff" opacity=".08"/><rect x="300" y="36" width="0" height="12" rx="6" fill="url(#seg)"><animate attributeName="width" values="0;260;260" keyTimes="0;.8;1" dur="1.6s" begin="0s" repeatCount="indefinite"/></rect><rect x="300" y="58" width="260" height="12" rx="6" fill="#ffffff" opacity=".08"/><rect x="300" y="58" width="0" height="12" rx="6" fill="url(#seg)"><animate attributeName="width" values="0;260;260" keyTimes="0;.8;1" dur="2.3s" begin="0.3s" repeatCount="indefinite"/></rect><rect x="300" y="80" width="260" height="12" rx="6" fill="#ffffff" opacity=".08"/><rect x="300" y="80" width="0" height="12" rx="6" fill="url(#seg)"><animate attributeName="width" values="0;260;260" keyTimes="0;.8;1" dur="1.9s" begin="0.6s" repeatCount="indefinite"/></rect><rect x="300" y="102" width="260" height="12" rx="6" fill="#ffffff" opacity=".08"/><rect x="300" y="102" width="0" height="12" rx="6" fill="url(#seg)"><animate attributeName="width" values="0;260;260" keyTimes="0;.8;1" dur="2.8s" begin="0.2s" repeatCount="indefinite"/></rect><rect x="300" y="124" width="260" height="12" rx="6" fill="#ffffff" opacity=".08"/><rect x="300" y="124" width="0" height="12" rx="6" fill="url(#seg)"><animate attributeName="width" values="0;260;260" keyTimes="0;.8;1" dur="2.1s" begin="0.5s" repeatCount="indefinite"/></rect>
+  <g transform="translate(200 60)"><circle cx="36" cy="36" r="34" fill="#f97316" opacity=".15"/><circle cx="36" cy="36" r="34" fill="none" stroke="#f97316" stroke-width="2" opacity=".6"/>
+    <g class="arr"><path d="M36 18v30M24 38l12 12 12-12" fill="none" stroke="#fbbf24" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+  <g stroke="#fbbf24" stroke-width="2" stroke-linecap="round"><line class="line" x1="150" y1="70" x2="185" y2="70"/><line class="line" style="animation-delay:-.4s" x1="140" y1="96" x2="185" y2="96"/><line class="line" style="animation-delay:-.8s" x1="155" y1="122" x2="185" y2="122"/></g>
+  <g fill="#f97316"><rect x="32" y="40" width="96" height="10" rx="5"/><rect x="32" y="60" width="110" height="8" rx="4" opacity=".4"/></g>
+  <g font-family="Consolas,monospace" font-size="12" fill="#fbbf24"><text x="300" y="160">32 connections · 118 MB/s<animate attributeName="opacity" values=".5;1;.5" dur="1.5s" repeatCount="indefinite"/></text></g>
+  <rect x=".5" y=".5" width="599" height="219" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</g>
+<text x="32" y="186" font-size="34" font-weight="700" fill="#fff" letter-spacing="-.5">Thrennix</text>
+<text x="33" y="206" font-size="13" fill="#ffffff" fill-opacity=".65">A very fast, simple download manager for Windows</text>
+</svg>

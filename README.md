@@ -162,4 +162,5 @@ Have an app idea? We build **iOS and Android apps, React Native and Expo apps, w
 <p>
   <a href="https://www.pntapps.com/contact"><img alt="Start a project" src="https://img.shields.io/badge/Start_a_project-22d3ee?style=for-the-badge&logo=rocket&logoColor=04121a"></a>
   <a href="mailto:contact@pntapps.com"><img alt="Email" src="https://img.shields.io/badge/contact@pntapps.com-1d5fd6?style=for-the-badge&logo=maildotru&logoColor=white"></a>
+  <a href="mailto:pntapps.dev@gmail.com"><img alt="Email pntapps.dev@gmail.com" src="https://img.shields.io/badge/pntapps.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
